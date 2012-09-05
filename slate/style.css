@@ -1,0 +1,244 @@
+/*   
+Theme Name: NerdPaper
+Theme URI:
+Description: A theme designed to provide a clean and smooth user experience
+Author: Alessio Biancalana
+Author URI: http://dottorblaster.it
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+@font-face {
+    font-family: 'MuseoSlab500';
+    src: url('Museo_Slab_500-webfont.eot');
+    src: url('Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Museo_Slab_500-webfont.woff') format('woff'),
+         url('Museo_Slab_500-webfont.ttf') format('truetype'),
+         url('Museo_Slab_500-webfont.svg#MuseoSlab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, input, textarea {
+	font: 15px Asul,Arial,Segoe UI,Molengo,sans-serif;
+	color: #2F2F2F;
+	background-color: #F1F1F1;
+}
+
+body { background:url("images/bg.jpg") repeat; }
+
+a:link {
+    color:#960606;
+}
+a:visited {
+    color:#960606;
+}
+a:active,
+a:hover {
+    color: #960606;
+}
+
+.video{
+	box-shadow: 0px 2px 3px #BDBDBD;
+}
+
+#main {
+	padding:25px 0 25px 0;
+}
+
+#primary {
+	box-shadow: 0px 2px 3px #BDBDBD;
+	background-color: #FFFFFF;
+	border-style: none;
+}
+
+#header {
+    height:180px;
+}
+
+#header-image {
+ background:url("images/logo.png") no-repeat top;
+ height:100%;
+ width:950px;
+ top:0;
+ position:absolute;
+ float:center;
+}
+
+#blog-title {
+    font-family:Droid Serif,Arial,sans-serif;
+    font-size:50px;
+    text-shadow:#ADADAD 1px 1px 1px;
+    font-style:italic;
+    /*text-indent:-9000px;*/
+}
+
+#blog-description {
+	padding-left:25px;
+	font-family:Droid Serif;
+	/*text-indent:-9000px;*/
+}
+
+#container {
+	background-color: #FFFFFF;
+	width:650px;
+	box-shadow: 0px 2px 3px #BDBDBD;
+	margin-left:20px;
+}
+
+#container p {
+	text-align: justify;
+}
+
+#container img {
+	box-shadow: 0px 2px 3px #BDBDBD;
+}
+
+#content {
+    overflow:hidden;
+    width:600px;
+    padding-left:10px;
+    padding-top:10px;
+}
+
+.main-aside {
+    width:250px;
+}
+
+.entry-title {
+	font-family: MuseoSlab500, Arial, sans-serif;
+	font-weight:normal;
+	font-size:28px;
+	line-height:36px;
+	text-shadow:#FFFFFF 0px 0px 2px;
+}
+
+.entry-title a, .entry-title a:active, .entry-title a:visited {
+color:#2F2F2F;
+}
+
+.entry-meta a {
+    color:#666;
+    text-decoration:none;
+}
+.entry-meta a:active,
+.entry-meta a:hover {
+    color: #666;
+}
+
+.entry-content h3 {
+    font-family: MuseoSlab500, Arial, sans-serif;
+    font-size:19px;
+    font-style:normal;
+    /*font-weight:bold;*/
+    padding:28px 0 14px 0;
+    text-shadow:#FFFFFF 0px 0px 2px;
+}
+
+.entry-content a{
+    color: #960606;
+    font-weight:bold;
+}
+
+.entry-content a:active,
+.entry-content a:hover {
+    color: #960606;
+}
+
+.entry-content a:visited {
+    color:#960606;
+}
+
+.entry-utility a {
+    color:#666;
+    font-style:italic;
+    text-decoration:none;
+}
+.entry-utility a:active,
+.entry-utility a:hover {
+    color: #960606;
+}
+
+blockquote {
+	font-family: MuseoSlab500, Times New Roman, serif;
+	color: #FFFFFF;
+	text-shadow: #000000 0px 3px 3px; 
+	font-size:14px;
+	font-style:normal;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-image:url('images/quote-pattern.jpg');
+	background-repeat:repeat-y;
+	box-shadow:inset 0 0 10px #000000;
+}
+
+pre, code {
+	font-family: Monaco, monospace;
+	font-size:13px;
+}
+
+.aside,
+.aside input {
+    font-size:11px;
+    line-height:18px;
+    margin-bottom:6px;
+}
+
+.aside h3 {
+    font-family: MuseoSlab500, Arial, sans-serif; 
+    text-shadow: #FFFFFF 0px 1px 1px;
+    font-size:13px;
+    font-style:normal;
+    line-height:22px;
+    margin-top:10px;
+}
+
+.aside .current_page_item a {
+    color: #960606;
+}
+.aside .current_page_item .page_item a {
+    color:#666;
+}
+.aside .current_page_item .page_item a:hover,
+.aside .current_page_item .page_item a:active {
+    color: #960606;
+}
+.aside {
+    color:#666;
+}
+.aside a {
+    color:#666;
+}
+.aside a:active,
+.aside a:hover {
+    color: #960606;
+}
+
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
