@@ -46,7 +46,8 @@ add_action('init','remove_stuff');
 
 // Add Header Image // Add Header Image
 function thematic_logo_image() {
- echo '<a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'" ><span id="header-image"></span></a>';
+ echo '<div id="header-image"><a href="'.get_bloginfo('url').'" title="'.get_bloginfo('name').'" ><img src="images/logo.png" /><div id="blogname">'.get_bloginfo('name').'</div></a> | <div id="blog-description">Un blog rolling release, di Alessio Biancalana</div></div>';
+
 }
 add_action('thematic_header','thematic_logo_image',6);
 

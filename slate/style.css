@@ -94,9 +94,16 @@ a:hover {
     /*text-indent:-9000px;*/
 }
 
+#blogname {
+    font-family: MuseoSlab500, sans-serif;
+    font-size: 30px;
+    text-shadow: #FFFFFF 0px 0px 2px;
+}
+
 #blog-description {
-	padding-left:25px;
-	font-family:Droid Serif;
+	font-family: Asul, sans-serif;
+	font-size: 15px;
+	text-shadow: #FFFFFF 0px 0px 2px;
 	/*text-indent:-9000px;*/
 }
 
