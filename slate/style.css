@@ -74,16 +74,13 @@ a:hover {
 }
 
 #header {
-    height:180px;
+    height:100px;
 }
 
 #header-image {
- background:url("images/logo.png") no-repeat top;
  height:100%;
  width:950px;
  top:0;
- position:absolute;
- float:center;
 }
 
 #blog-title {
