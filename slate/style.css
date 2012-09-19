@@ -81,6 +81,7 @@ a:hover {
  height:100%;
  width:950px;
  top:0;
+ position:absolute;
 }
 
 #blog-title {
